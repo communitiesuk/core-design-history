@@ -14,10 +14,32 @@
     { title: 'Terms and conditions', path: '/terms-conditions'}
   ]
 */
-const paths = [{
-  title: 'Index page',
-  path: '/'
-}]
+const paths = [
+  {
+    title: 'Before you start',
+    path: '/sprint8/'
+  },
+  {
+    title: 'Dashboard',
+    path: '/sprint8/home-page'
+  },
+  {
+    title: 'Task list',
+    path: '/sprint8/tasklist'
+  },
+  {
+    title: 'An example question',
+    path: '/sprint8/household/tenant-code'
+  },
+  {
+    title: 'Check your answers',
+    path: '/sprint8/household/check-answers'
+  },
+  {
+    title: 'Log submitted',
+    path: '/sprint8/confirmation'
+  }
+]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
 
