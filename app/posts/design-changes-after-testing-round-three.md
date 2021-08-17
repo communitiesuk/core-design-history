@@ -3,6 +3,7 @@ title: Design changes after testing round three
 date: 2021-08-16T23:00:00Z
 related:
   items: []
+author: Jon Roobottom
 
 ---
 Using the feedback we'd gained in round 3 of testing the Alpha prototype, we made some changes to the prototype.
