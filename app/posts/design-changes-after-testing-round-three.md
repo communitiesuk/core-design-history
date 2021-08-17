@@ -27,3 +27,5 @@ The "dashboard" (as I've been calling it) is the first page users see when they 
    7. Change "Log ID" to "Log reference"
 
 ![](/app/images/2021-08-17-dashboard-with-incomplete-logs.png 'The updated "dashboard"')
+
+## Task list
