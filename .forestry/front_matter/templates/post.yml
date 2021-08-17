@@ -22,5 +22,11 @@ fields:
     - type: text
       name: text
       label: text
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: Who wrote this post?
 pages:
 - app/posts/design-changes-after-testing-round-three.md
