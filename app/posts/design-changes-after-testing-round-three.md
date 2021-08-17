@@ -25,3 +25,5 @@ The "dashboard" (as I've been calling it) is the first page users see when they 
    5. Change "date completed" to "date submitted" (this becomes "Last changed" in the "Logs you need to complete" table)
    6. Remove the `#` from log references
    7. Change "Log ID" to "Log reference"
+
+![](/app/images/2021-08-17-dashboard-with-incomplete-logs.png)
