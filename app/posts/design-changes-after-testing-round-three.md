@@ -81,3 +81,18 @@ Testing led to some new user stories.
 ![](/2021-08-19-check-answers-at-the-end-of-a-section.png)
 
 ![](/2021-08-19-check-answers-given-up-half-way-though.png)
+
+## Accessibility challenges
+
+One thing we need to address as a matter of urgency is accessibility. We've started to design around some of the known problems, ie:
+
+* Adding a "skip to next" in the task list to help users who navigate by keyboard or who listen to the page being read aloud
+* Using the task list to break the form down into smaller chunks that are easier to reason about
+
+In the next phase, we will concentrate our efforts on:
+
+1. Questions:
+   1. Layout and interaction; is it better to have one question per page? If so, how would we make this accessible to all?
+   2. Wording; how do users and their clients describe the topic areas? This will help lower cognitive load
+2. A full accessibility review using both automated code tools and manual testing (using tools like [Funkify](https://www.funkify.org/)
+3. Testing with users with access needs
