@@ -9,8 +9,8 @@ sections:
   label: Posts
   create: documents
   match: "**/*.md"
-upload_dir: Images
-public_path: "/app/images"
+upload_dir: app/images
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:-:month:-:day:-:filename:"
