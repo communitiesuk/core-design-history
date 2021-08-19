@@ -47,8 +47,6 @@ The feedback led to some new user stories:
 
 ### The changes
 
-We redesigned the task list:
-
 * Removed numbers to make it more obvious you can complete sections in any order
 * Added a "Skip to" component to combat the "tab tab tab" problem for keyboard and screen reader users
 * Added a "Declaration" section at the end, as the old "submit" button was off-pattern
