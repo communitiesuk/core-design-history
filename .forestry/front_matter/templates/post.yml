@@ -30,3 +30,4 @@ fields:
   description: Who wrote this post?
 pages:
 - app/posts/design-changes-after-testing-round-three.md
+- app/posts/weeknotes-3-september-2021.md
