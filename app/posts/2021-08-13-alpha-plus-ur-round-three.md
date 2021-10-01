@@ -17,11 +17,3 @@ We found that:
 
 * All users immediately clicked the "Start now" button, and didn't stop to read the content. This led us to question if this page is the best place to tell users about the new service. Maybe there's a better place to do this?
 * The page doesn’t mention "CORE" anywhere. Some users said it wasn't clear that they'd be "logging a CORE". Even though it's usually a manager who will introduce a user to "CORE" it might be useful to what CORE is for. In fact, one of our participants said this exact thing.
-
-## Feature
-
-findings
-
-## Feature
-
-findings

@@ -6,7 +6,6 @@ related:
   - href: http://ec2-18-168-105-184.eu-west-2.compute.amazonaws.com/sprint8/
     text: Sprint 8 prototype
 author: Jon Roobottom
-
 ---
 Here are the changes we made after the user testing
 
