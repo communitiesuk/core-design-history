@@ -1,6 +1,6 @@
 {% extends "govuk/template.njk" %}
 
-{% set htmlClasses = 'no-js' %}
+{% set htmlClasses = "no-js" %}
 
 {% from "header/macro.njk" import appHeader %}
 {% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
@@ -38,16 +38,18 @@
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
 
 {% block footer %}
-  <div class="govuk-!-display-none-print">
-    {{ govukFooter({
-      meta: {
-        items: [{
-          text: "Sitemap",
-          href: "/sitemap"
-        }]
-      }
-    }) }}
-  </div>
+  {{ govukFooter({
+    classes: "govuk-!-display-none-print",
+    meta: {
+      items: [{
+        text: "Glossary",
+        href: "/glossary"
+      }, {
+        text: "Sitemap",
+        href: "/sitemap"
+      }]
+    }
+  }) }}
 {% endblock %}
 
 {% block bodyEnd %}
