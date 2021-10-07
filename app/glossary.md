@@ -133,13 +133,13 @@ Sheltered accommodation
 : Housing designated for occupation by older people (often 55 years or older) with care and support needs. It is split into ‘sheltered housing’ for people with low level care needs and ‘extra care housing’ for people with medium to high care needs.
 
 Social housing
-: Social housing is any housing scheme where accommodation is provided by a housing association or local council. Social homes have rents pegged to local incomes and provide an affordable, secure housing option for people across the country.
+: Any housing scheme where accommodation is provided by a housing association or local council. Social homes have rents pegged to local incomes and provide an affordable, secure housing option for people across the country.
 
 Succession
 : If a tenant dies, their spouse may have the right to take over the tenancy – as long as they occupied the property as their only or principal home at the time of the tenant’s death. If there is no spouse, a family member who has lived in the home for at least 12 months before the tenant’s death may have the right to succeed.
 
 Supported housing
-: Supported housing is any housing scheme where accommodation is provided alongside care, support or supervision to help people live as independently as possible in the community. Schemes are usually run by local authorities, housing associations or voluntary groups.
+: Any housing scheme where accommodation is provided alongside care, support or supervision to help people live as independently as possible in the community. Schemes are usually run by local authorities, housing associations or voluntary groups.
 
 ## U
 
