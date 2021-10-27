@@ -94,6 +94,15 @@ London Living Rent
 
 ## M
 
+Managed and non-managed providers
+: These are about individual accounts. Currently in order for a coordinator to view and edit logs submitted by a data provider their user accounts need to be linked in the system. From the coordinator’s perspective any data providers linked to them would be a ‘managed provider’ and any other (non-linked) data providers in their org would be a ‘non-managed provider’.
+
+Managing agents
+: These are about orgs. In scenarios where one organisation owns stock and another organisation is contracted to manage the stock and tenants, the latter organisation is often called a ‘managing agent’. See ‘parent/child’.
+
+Management groups
+: Schemes are often managed together as part of a ‘management group’. An organisation may have multiple management groups, and each management group may have multiple schemes. For Supported Housing logs, users must select the management group first, then select scheme. See ‘schemes’.
+
 Market rented housing
 : Properties let on assured shorthold tenancies, where the rent is comparable to privately rented properties in the location, and there is no public subsidy.
 
@@ -103,6 +112,9 @@ National Housing Federation (NHF)
 : The [National Housing Federation](https://www.housing.org.uk) is a trade association for member social housing providers in England.
 
 ## P
+
+Parent/child
+: The relationship between organisations. It can mean the relationship itself or refer to an organisation within the relationship. When an organisation that owns stock contracts out the management of the stock (and tenants), it can often make more sense for the organisation that does the managing to complete CORE forms as they are the people in contact with the tenants. The stock-owning organisation is the ‘parent’ or ‘owning org’. The one in contact with the tenants is the ‘child’ or ‘managing org’. The relationship is the ‘parent/child relationship’. See ‘managing agents’.
 
 Private Registered Provider (PRP)
 : See Housing association.
@@ -125,6 +137,9 @@ Rent to Buy
 : Properties where a discount of up to 20% of market rent is charged for a single rental period of between 6 months and 5 years. During and after that period, the tenant is offered first chance to purchase the property (either shared ownership or outright) at full market value. These are only available from PRPs.
 
 ## S
+
+Schemes
+: These are groups of similar properties in the same location, intended for similar tenants with the same type of support needs, managed in the same way. They are used in Supported Housing only. As some of the information we need about a new tenancy is the same for all new tenancies in the ‘scheme’, users can set up a ‘scheme’ in the CORE system by completing the information once. In Supported Housing forms, the user just supplies the scheme code of the appropriate scheme. This means providers do not have to complete identical information multiple times in each CORE form.
 
 Single data list
 : The [single data list](https://www.gov.uk/government/publications/single-data-list) is a list of all the datasets that local government must submit to central government.
