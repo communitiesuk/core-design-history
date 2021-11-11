@@ -4,10 +4,15 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
+  label: Title
+  description: A summary of what you did. Put the sprint number in brackets, eg (Alpha
+    7) or (Alpha 8/9)
+- name: date
+  type: text
+  config:
+    required: true
+  label: Date
+  description: format YYYY-MM-DD
 - type: field_group
   name: related
   label: related
