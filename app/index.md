@@ -6,8 +6,6 @@ pagination:
   data: collections.all
   reverse: true
   size: 50
-posts:
-  title: Getting started
 eleventyComputed:
   eleventyNavigation:
     key: home
