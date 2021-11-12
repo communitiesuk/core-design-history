@@ -34,5 +34,5 @@ fields:
   label: Author
   description: Who wrote this post?
 pages:
-- app/posts/blog-3.md
+- app/posts/blog-3 Sprint 4.md
 - app/posts/design-changes-after-testing-round-three.md
