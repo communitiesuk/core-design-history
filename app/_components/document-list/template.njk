@@ -8,7 +8,7 @@
       {% if item.data.description %}
         <p class="app-document-list__item-description">{{ item.data.description | markdown("inline") | safe }}</p>
       {% endif %}
-      {% if item.date or item.data.sprint %}
+      {% if item.date or item.data.tags %}
         <ul class="app-document-list__item-metadata">
           {% if item.date %}
             <li class="app-document-list__attribute">
@@ -16,9 +16,7 @@
             </li>
           {% endif %}
           {% if item.data.tags %}
-            <li class="app-document-list__attribute">
-              Sprint {{ item.data.tags | join("/") }}
-            </li>
+            <li class="app-document-list__attribute">{{ item.data.tags | join("/") }}</li>
           {% endif %}
         </ul>
       {% endif %}

@@ -8,7 +8,7 @@
 {% block content %}
   {% call appArticle({
     header: {
-      caption: ("Sprint " + tags | join("/")) if tags,
+      caption: (tags | join("/")) if tags,
       title: title | widont
     },
     footer: {
@@ -37,7 +37,7 @@
           title: related.title or "Related links",
           items: related.items,
           subsections: [{
-            title: "Other posts from Sprint " + tags[0],
+            title: tags[0],
             items: collections[tags[0]] | collectionToItems
           }]
         }]
