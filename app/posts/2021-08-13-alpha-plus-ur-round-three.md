@@ -1,11 +1,12 @@
 ---
-title: Helping users better find our service (Alpha 8)
+title: Helping users better find our service
 date: 2021-08-13
 related:
   items:
   - href: http://ec2-18-168-105-184.eu-west-2.compute.amazonaws.com/sprint8/
     text: Alpha prototype, sprint 8
-
+tags:
+  - Alpha 8
 ---
 Testing of the [alpha prototype (sprint 8)](http://ec2-18-168-105-184.eu-west-2.compute.amazonaws.com/sprint8/) took place in the week of 9 to 13 August 2021.
 

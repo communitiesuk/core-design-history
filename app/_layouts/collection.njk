@@ -4,7 +4,7 @@
 {% from "masthead/macro.njk" import appMasthead %}
 {% from "pagination/macro.njk" import appPagination %}
 {% from "prose/macro.njk" import appProse %}
-{% from "related/macro.njk" import appRelated %}
+{% from "related-navigation/macro.njk" import appRelatedNavigation %}
 
 {% block main %}
   {% call appMasthead({
@@ -59,9 +59,11 @@
           </section>
           {% if related %}
             <div class="govuk-grid-column-one-third">
-              {{ appRelated({
-                title: related.title or "Related links",
-                items: related.items
+              {{ appRelatedNavigation({
+                sections: [{
+                  title: related.title or "Related links",
+                  items: related.items
+                }]
               }) }}
             </div>
           {% endif %}
