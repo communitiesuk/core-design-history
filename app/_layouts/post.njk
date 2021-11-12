@@ -1,13 +1,14 @@
 {% extends "base.njk" %}
 
 {% from "article/macro.njk" import appArticle %}
-{% from "related/macro.njk" import appRelated %}
+{% from "related-navigation/macro.njk" import appRelatedNavigation %}
 {% from "screenshots/macro.njk" import appScreenshots %}
 {% from "prose/macro.njk" import appProse %}
 
 {% block content %}
   {% call appArticle({
     header: {
+      caption: ("Sprint " + tags | join("/")) if tags,
       title: title | widont
     },
     footer: {
@@ -31,9 +32,15 @@
 
     {% if related.items | length > 0 %}
     <div class="govuk-grid-column-one-third">
-      {{ appRelated({
-        title: related.title or "Related links",
-        items: related.items
+      {{ appRelatedNavigation({
+        sections: [{
+          title: related.title or "Related links",
+          items: related.items,
+          subsections: [{
+            title: "Other posts from Sprint " + tags[0],
+            items: collections[tags[0]] | collectionToItems
+          }]
+        }]
       }) }}
     </div>
     {% endif %}
