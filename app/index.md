@@ -11,5 +11,5 @@ posts:
 eleventyComputed:
   eleventyNavigation:
     key: home
-    title: "{{ title }}"
+    title: Home
 ---
