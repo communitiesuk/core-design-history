@@ -5,8 +5,7 @@ fields:
 - type: text
   name: title
   label: Title
-  description: A summary of what you did. Put the sprint number in brackets, eg (Alpha
-    7) or (Alpha 8/9)
+  description: A summary of what you did.
 - name: date
   type: text
   config:
@@ -33,6 +32,12 @@ fields:
     required: false
   label: Author
   description: Who wrote this post?
+- name: tags
+  type: tags
+  config:
+    required: false
+  label: Sprint tags
+  description: Which sprint does this post relate to?
 pages:
 - app/posts/blog-3 Sprint 4.md
 - app/posts/design-changes-after-testing-round-three.md
