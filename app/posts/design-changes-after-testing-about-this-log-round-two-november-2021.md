@@ -9,7 +9,7 @@ tags: []
 ---
 After testing the ["about this log" section](https://core-design-history.netlify.app/beta-3/ '"about this log" section') in the first iteration of Beta user research we made some changes, and have now tested these in a second iteration.
 
-# Hypotheses
+## Hypotheses
 
 1. If we introduce the task list at the start of the service, with an instruction to ‘skip to next incomplete section’, we will reduce the confusion of how to interact with the task list, and the user will feel more confident about how to move through the service.
 
@@ -25,7 +25,7 @@ After testing the ["about this log" section](https://core-design-history.netlify
 5. If users can type in the Local Authority they want, rather than selecting from a long list, we can reduce the burden of scrolling and therefore make this question quicker and easier to complete.  
    ![](/beta-3/type-ahead.png)
 
-# **Results**
+## Results
 
 Hypothesis 1: This hypothesis was proved as the instruction made it clear to users where to start on an unfamiliar task list. However, the link in the instruction did not take the user straight into the about this log section, but simply highlighted the hyperlink. Therefore, the prototype will be amended to take the user straight into the next incomplete section when this instruction at the top is selected.
 
@@ -38,11 +38,11 @@ Hypothesis 4: This hypothesis was proven as we saw users confidently selecting t
   
 Hypothesis 5: This hypothesis was proven and users successfully selected their local authority from the type-ahead.
 
-# **Other findings**
+## Other findings
 
 From this testing iteration, we saw that users are still unsure how to navigate around the prototype effectively. Therefore we will be working on allowing users to navigate back to the log list from the task list using the breadcrumbs, allowing users to bypass the task list from the check your answers page, and how a user can navigate back to the main journey after making a change.
 
-# **User Stories**
+## User Stories
 
 Findings from user research have been turned into user stories for the design team to use as the basis for development work on the prototype.
 
