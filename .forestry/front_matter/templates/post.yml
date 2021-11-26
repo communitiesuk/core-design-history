@@ -33,7 +33,7 @@ fields:
   label: Author
   description: Who wrote this post?
 - name: tags
-  type: tags
+  type: tag_list
   config:
     required: false
   label: Tags
