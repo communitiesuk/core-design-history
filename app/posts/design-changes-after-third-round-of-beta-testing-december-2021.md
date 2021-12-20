@@ -7,8 +7,6 @@ author: Kimberley Frame
 tags: []
 
 ---
-# Beta Round 3 - Design changes after testing (December 2021)
-
 Following team design ideation informed from 2 rounds of user research, the third round of Beta user research, focused on testing these new ideations in two previously untested CORE sections - Household Characteristics and Finance.
 
 ## Hypotheses
@@ -25,7 +23,7 @@ Following team design ideation informed from 2 rounds of user research, the thir
 
 Hypothesis 1: This hypothesis was proved as users were able to make a change to the 'tenant code' when tasked to do so during the testing. However, some users were unable to locate the tenant code from the task list page, expecting to find it in the 'tenancy information' section rather than the 'about this log' section. Therefore, we plan to conduct research work around the naming conventions of the sections.
 
-Hypothesis 2: This hypothesis was proven when all users were able to navigate to different sections of the log using the breadcrumbs and/or navigation buttons. However, they all used different routes to do so when trying to get back to the task list in order to complete the finance section. None of these routes were incorrect, but it means that the current navigation is not straightforward to users. Consequently, we are going to re-instate the current section as the heading, a back link on all question pages and only use breadcrumbs on the 'check your answers' page. Testing of the new buttons on the 'check your answers' page ('save and return to log', 'save and go to next incomplete section') was also successful with the majority of users favouring to use 'save and go to next incomplete section' to complete the sections of the log in order. 
+Hypothesis 2: This hypothesis was proven when all users were able to navigate to different sections of the log using the breadcrumbs and/or navigation buttons. However, they all used different routes to do so when trying to get back to the task list in order to complete the finance section. None of these routes were incorrect, but it means that the current navigation is not straightforward to users. Consequently, we are going to re-instate the current section as the heading, a back link on all question pages and only use breadcrumbs on the 'check your answers' page. Testing of the new buttons on the 'check your answers' page ('save and return to log', 'save and go to next incomplete section') was also successful with the majority of users favouring to use 'save and go to next incomplete section' to complete the sections of the log in order.
 
 ![](/2021-12-20-new-check-answers-buttons.jpg)
 
@@ -35,7 +33,7 @@ Hypothesis 3: This was another success during testing because all participants e
 
 Hypothesis 4: Testing of this hypothesis proved unsuccessful because there are still pain points within the finance section making it difficult for the users to complete. These are all related to the 'household rent and charges' question - users were not clear what time period they are reporting on, participants were confused about the term 'basic rent' ("should it be net rent or other"), and if they didn't charge something they didn't know how to fill it in.
 
-To address these, we will be looking at: an additional routing question for the supported housing journey, reviewing how we ask about the rent amount and any hint text requirements, and a suffix to number inputs e.g. 'per week' or 'per month'. 
+To address these, we will be looking at: an additional routing question for the supported housing journey, reviewing how we ask about the rent amount and any hint text requirements, and a suffix to number inputs e.g. 'per week' or 'per month'.
 
 ![](/2021-12-20-household-rent-and-charges.jpg)
 
@@ -57,7 +55,7 @@ From this testing iteration, we saw that users are still unsure about the call t
 
 When adding another tenant to the log, participants didn't notice that they needed to fill in the details of the additional person. This means that they may submit an incomplete log without the extra person's details. Therefore, we will be looking at how we might help users complete follow up questions when they have changed an answer.
 
-For participants who typically complete logs that are pre-filled (rather than starting a log), they struggled to find where to start when we asked them to "Please use this website to complete a new lettings log for 2 tenants". Since they never start a new log from scratch, they were unsure about how to go about this task. We will consider this journey in future research. 
+For participants who typically complete logs that are pre-filled (rather than starting a log), they struggled to find where to start when we asked them to "Please use this website to complete a new lettings log for 2 tenants". Since they never start a new log from scratch, they were unsure about how to go about this task. We will consider this journey in future research.
 
 ### 'How Might We' statements for design
 
