@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "A design history for Submit data on social housing sales and lettings (aka CORE)"
+title: "A design history for Submit social housing lettings and sales data (CORE)"
 description: "A permanent record of how our service has developed over time."
 pagination:
   data: collections.all

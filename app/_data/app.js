@@ -1,3 +1,3 @@
 module.exports = {
-  productName: 'CORE data design history'
+  productName: 'CORE design history'
 }
