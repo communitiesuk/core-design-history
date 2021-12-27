@@ -1,33 +1,28 @@
 ---
 title: Design changes after testing ‘about this log’ round two (November 2021)
-date: '2021-11-26'
-related:
-  items: []
+date: 2021-11-26
 author: Kimberley Frame
-tags: []
-
 ---
 After testing the ["about this log" section](https://core-design-history.netlify.app/beta-3/ '"about this log" section') in the first iteration of Beta user research we made some changes, and have now tested these in a second iteration.
 
 ## Hypotheses
 
 1. If we introduce the task list at the start of the service, with an instruction to ‘skip to next incomplete section’, we will reduce the confusion of how to interact with the task list, and the user will feel more confident about how to move through the service.
-
-   ![](/2021-11-26-before-you-start.jpg)
+  ![](/2021-11-26-before-you-start.jpg)
 2. If we prevent users from making changes to the ‘about this log’ section once completed, the use of an additional guidance panel (‘Twisty’), informing the users why they can’t change their answers, will reassure them and direct them to the correct call to action if needed.
-
    ![](/2021-11-26-can-t-change-answers.jpg)
-3. If users are shown ‘additional answers’ that have been inferred from intelligent routing, the user will know that the information required has still been submitted, without being asked unnecessary questions.  
+3. If users are shown ‘additional answers’ that have been inferred from intelligent routing, the user will know that the information required has still been submitted, without being asked unnecessary questions.
    ![](/2021-11-26-additional-answers.jpg)
 4. If we re-introduce the longer list of answer options for ‘reason for vacancy’ in the ‘property information' section, when the property is a ‘re-let’, then users will be able to select the most appropriate option, reducing confusion previously created by new questions.
-
    ![](/beta-3/reasons-for-vacancy.png)
-5. If users can type in the Local Authority they want, rather than selecting from a long list, we can reduce the burden of scrolling and therefore make this question quicker and easier to complete.  
+5. If users can type in the Local Authority they want, rather than selecting from a long list, we can reduce the burden of scrolling and therefore make this question quicker and easier to complete.
    ![](/beta-3/type-ahead.png)
 
 ## Results
 
-Hypothesis 1: This hypothesis was proved as the instruction made it clear to users where to start on an unfamiliar task list. However, the link in the instruction did not take the user straight into the about this log section, but simply highlighted the hyperlink. Therefore, the prototype will be amended to take the user straight into the next incomplete section when this instruction at the top is selected.
+Hypothesis 1: This hypothesis was proved as the instruction made it clear to users where to start on an unfamiliar task list. However, the link in the instruction did not take the user straight into the about this log section, but simply highlighted the hyperlink.
+
+Therefore, the prototype will be amended to take the user straight into the next incomplete section when this instruction at the top is selected.
 
 Hypothesis 2: This needs more work as the participants in this round were still concerned that they would need to change the tenant code at this point due to typos or the tenant code not available at the time of starting the log. Since tenant code does not affect the routing of future questions we will be looking at making it possible to edit the tenant code and testing it further with users.
 
@@ -35,7 +30,6 @@ Hypothesis 3: The additional answers section did not test well with users and cr
 
 Hypothesis 4: This hypothesis was proven as we saw users confidently selecting the answer option they wanted from the longer list of ‘reason for vacancy’. For future iterations we are also going to test the addition of the numerical answer codes from the paper form onto online CORE.
 
-  
 Hypothesis 5: This hypothesis was proven and users successfully selected their local authority from the type-ahead.
 
 ## Other findings

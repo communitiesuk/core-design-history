@@ -1,11 +1,7 @@
 ---
 title: Design changes after third round of Beta testing (December 2021)
-date: '2021-12-20'
-related:
-  items: []
+date: 2021-12-20
 author: Kimberley Frame
-tags: []
-
 ---
 Following team design ideation informed from 2 rounds of user research, the third round of Beta user research, focused on testing these new ideations in two previously untested CORE sections - Household Characteristics and Finance.
 
