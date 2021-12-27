@@ -1,15 +1,15 @@
-{% extends "base.njk" %}
+{% extends "govuk/layouts/post.njk" %}
 
-{% from "article/macro.njk" import appArticle %}
-{% from "related-navigation/macro.njk" import appRelatedNavigation %}
 {% from "screenshots/macro.njk" import appScreenshots %}
-{% from "prose/macro.njk" import appProse %}
+
+{% block styles %}
+  <link rel="stylesheet" href="/assets/application.css">
+{% endblock %}
 
 {% block content %}
   {% call appArticle({
     header: {
-      caption: (tags | join("/")) if tags,
-      title: title | widont
+      title: title | noOrphans
     },
     footer: {
       date: page.date,
