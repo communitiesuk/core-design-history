@@ -1,11 +1,33 @@
 module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(require('govuk-eleventy-plugin'), {
-    searchIndex: '/search.json',
-    views: ['app/_components']
+    brandColour: '#012169',
+    stylesheets: [
+      '/styles/application.css'
+    ],
+    header: {
+      organisationLogo: 'royal-arms',
+      organisationName: 'DLUHC',
+      productName: 'CORE Design History',
+      search: {
+        indexPath: '/search.json',
+        sitemapPath: '/sitemap'
+      }
+    },
+    footer: {
+      meta: {
+        items: [{
+          href: '/glossary',
+          text: 'Glossary'
+        }, {
+          href: '/sitemap',
+          text: 'Sitemap'
+        }]
+      }
+    }
   })
 
-  // Passthrough
+  // Pass through
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
 
   // Config
@@ -18,7 +40,6 @@ module.exports = function (eleventyConfig) {
       output: 'public',
       layouts: '_layouts',
       includes: '_components'
-    },
-    templateFormats: ['11ty.js', 'md', 'njk']
+    }
   }
 }

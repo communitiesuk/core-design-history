@@ -1,5 +1,5 @@
 {
   "layout": "post",
-  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
-  "parent": "Home"
+  "includeInBreadcrumbs": true,
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/"
 }

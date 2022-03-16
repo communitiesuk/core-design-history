@@ -1,25 +1,16 @@
-{% extends "govuk/layouts/page.njk" %}
-
-{% from "screenshots/macro.njk" import appScreenshots %}
-
-{% block styles %}
-  <link rel="stylesheet" href="/assets/application.css">
-{% endblock %}
+{% extends "layouts/page.njk" %}
 
 {% block content %}
   {% call appArticle({
     header: {
-      title: title | noOrphans
+      title: title,
+      description: description
     }
   }) %}
-    {{ appProse({
-      prose: content
-    }) }}
-
-    {% for collection in screenshots %}
-      {{ appScreenshots(collection) }}
-    {% else %}
-      {{ appScreenshots(screenshots) if screenshots }}
-    {% endfor %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+      {{ content }}
+    </div>
+  </div>
   {% endcall %}
 {% endblock %}

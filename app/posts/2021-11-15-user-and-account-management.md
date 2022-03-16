@@ -3,11 +3,12 @@ title: User and account management
 description: Enabling organisations to manage users, roles and permissions.
 date: 2021-11-15
 related:
-  items:
-  - href: https://core-design-history.netlify.app/
-    text: Beta Prototype
-  - href: https://mhclg.sharepoint.com/:x:/r/sites/DataCollectionTeam/Shared%20Documents/Beta/CORE%20user%20permissions%20(view%20based).xlsx?d=wd2f65bed28964a92934aef8d8b2bf744&csf=1&web=1&e=y5pqlD
-    text: CORE user permissions
+  sections:
+    - items:
+        - href: https://core-design-history.netlify.app/
+          text: Beta Prototype
+        - href: https://mhclg.sharepoint.com/:x:/r/sites/DataCollectionTeam/Shared%20Documents/Beta/CORE%20user%20permissions%20(view%20based).xlsx?d=wd2f65bed28964a92934aef8d8b2bf744&csf=1&web=1&e=y5pqlD
+          text: CORE user permissions
 author: Paul Lloyd
 tags:
   - Beta 4
