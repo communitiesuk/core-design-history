@@ -1,11 +1,9 @@
 ---
+eleventyExcludeFromCollections: true
 layout: page
 title: A to Z glossary
-description: A collection of terms commonly used within our service.
-eleventyExcludeFromCollections: true
+description: A collection of terms commonly used within our service
 ---
-
-A collection of terms commonly used within our service.
 
 ## A
 

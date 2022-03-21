@@ -1,44 +1,34 @@
 module.exports = function (eleventyConfig) {
-  // Browser Sync
-  eleventyConfig.setBrowserSyncConfig({
-    rewriteRules: [{
-      match: /\/image\/(\d+)(x)?(\d+)?/g,
-      replace: '/images'
-    }],
-    serveStatic: ['public'],
-    serveStaticOptions: {
-      extensions: ['html']
+  // Plugins
+  eleventyConfig.addPlugin(require('govuk-eleventy-plugin'), {
+    brandColour: '#012169',
+    stylesheets: [
+      '/styles/application.css'
+    ],
+    header: {
+      organisationLogo: 'royal-arms',
+      organisationName: 'DLUHC',
+      productName: 'CORE Design History',
+      search: {
+        indexPath: '/search.json',
+        sitemapPath: '/sitemap'
+      }
+    },
+    footer: {
+      meta: {
+        items: [{
+          href: '/glossary',
+          text: 'Glossary'
+        }, {
+          href: '/sitemap',
+          text: 'Sitemap'
+        }]
+      }
     }
   })
 
-  // Template libraries
-  eleventyConfig.setLibrary('njk', require('./lib/libraries/nunjucks'))
-  eleventyConfig.setLibrary('md', require('./lib/libraries/markdown'))
-
-  // Plugins
-  eleventyConfig.addPlugin(require('@11ty/eleventy-navigation'))
-  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'))
-
-  // Filters
-  eleventyConfig.addFilter('collectionToItems', require('./lib/filters/collection-to-items'))
-  eleventyConfig.addFilter('date', require('./lib/filters/date'))
-  eleventyConfig.addFilter('fixed', require('./lib/filters/fixed'))
-  eleventyConfig.addFilter('includes', require('./lib/filters/includes'))
-  eleventyConfig.addFilter('markdown', require('./lib/filters/markdown'))
-  eleventyConfig.addFilter('pretty', require('./lib/filters/pretty'))
-  eleventyConfig.addFilter('sort', require('./lib/filters/sort'))
-  eleventyConfig.addFilter('tokenize', require('./lib/filters/tokenize'))
-  eleventyConfig.addFilter('totalFromRows', require('./lib/filters/total-from-rows'))
-  eleventyConfig.addFilter('widont', require('./lib/filters/widont'))
-
-  // Transforms
-
-  // Collections
-
-  // Passthrough
-  eleventyConfig.addPassthroughCopy('./app/documents')
+  // Pass through
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
-  eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/govuk/assets': 'assets' })
 
   // Config
   return {
@@ -50,8 +40,6 @@ module.exports = function (eleventyConfig) {
       output: 'public',
       layouts: '_layouts',
       includes: '_components'
-    },
-    templateFormats: ['njk', 'md'],
-    passthroughFileCopy: true
+    }
   }
 }

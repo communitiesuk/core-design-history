@@ -1,23 +1,16 @@
-{% extends "base.njk" %}
-
-{% from "article/macro.njk" import appArticle %}
-{% from "screenshots/macro.njk" import appScreenshots %}
-{% from "prose/macro.njk" import appProse %}
+{% extends "layouts/page.njk" %}
 
 {% block content %}
   {% call appArticle({
     header: {
-      title: title | widont
+      title: title,
+      description: description
     }
   }) %}
-    {{ appProse({
-      prose: content
-    }) }}
-
-    {% for collection in screenshots %}
-      {{ appScreenshots(collection) }}
-    {% else %}
-      {{ appScreenshots(screenshots) if screenshots }}
-    {% endfor %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+      {{ content }}
+    </div>
+  </div>
   {% endcall %}
 {% endblock %}

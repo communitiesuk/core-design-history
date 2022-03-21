@@ -2,9 +2,10 @@
 title: Helping users better find our service
 date: 2021-08-13
 related:
-  items:
-  - href: http://ec2-18-168-105-184.eu-west-2.compute.amazonaws.com/sprint8/
-    text: Alpha prototype, sprint 8
+  sections:
+    - items:
+        - href: http://ec2-18-168-105-184.eu-west-2.compute.amazonaws.com/sprint8/
+          text: Alpha prototype, sprint 8
 tags:
   - Alpha 8
 ---
