@@ -1,9 +1,10 @@
 {%- set title = params.title or "Screenshots" -%}
 {%- set id = title | slugify -%}
 {%- set headingLevel = params.headingLevel or 2 -%}
+{%- set headingClass = params.headingClass or "govuk-heading-l" -%}
 <section class="app-screenshots app-prose govuk-!-margin-top-9" id="{{ id }}">
   <div class="govuk-!-display-none-print">
-    <h{{ headingLevel }} class="govuk-heading-l" tabindex="-1">
+    <h{{ headingLevel }} class="{{ headingClass }}" tabindex="-1">
       <a class="app-heading-anchor" href="#{{ id }}">{{ title }}</a>
     </h{{ headingLevel }}>
     <ul class="govuk-list app-screenshots__contents">
