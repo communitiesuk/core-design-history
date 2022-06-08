@@ -4,9 +4,7 @@ date: 2022-06-07
 author: Jon Roobottom
 description: Allowing for complex organisation relationships
 ---
-So far, in this private beta phase, we've moved two organisations over to our new service. These organisations own housing their housing stock and don't sub-contract the management of that stock to anyone else.
-
-However, most providers who own stock will often engage other organisations to manage stock on their behalf. We've been calling these organisations "managers" or "owner/managers", and the relations between them and the stock owners "parent" and "child"[^1]. 
+So far, in this private beta phase, we've moved two organisations over to our new service, both of whom own and manage their housing stock. However, most providers who own stock will often engage other organisations to manage stock on their behalf. We’ve been calling organisations that own housing stock "stock owners" and those that manage stock “managers” and referring to the relationship between these organisations as “parent” and “child”[^1]. 
 
 These relationships can get quite complex. Here's an example of how several organisations might be connected:
 
@@ -16,12 +14,12 @@ These relationships can get quite complex. Here's an example of how several orga
 * Organisation D owns stock Z and can submit logs for their stock and on behalf of organisation B.
 * Organisation E doesn't own stock but can submit logs on behalf of organisation D.
 
-To enable more organisations to submit logs, we need to change the service. 
+To enable managers to submit logs on behalf of stock owners, we need to change the service. 
 
 ![A diagram showing the complex relationships between different organisations in CORE](organisational-relationships.png "The complex relationships between organisations A, B, C, D, and E")
 
 ## Asking users about who owns and manages the property
-Because the two organisations using our service in private beta own and manage their housing stock we don't need to ask them about this in the "set up your lettings log" section of the service. We can *infer* the owner and manager as it's always the organisation that the user is attached to.
+Because the two organisations using our service in private beta own and manage their housing stock, we don't need to ask them about this in the "set up your lettings log" section. We can *infer* the owner and manager as it's always the organisation that the user is attached to.
 
 ![A four step process showing how we infer the owner and manager based on the user’s login](infer-flow.jpg "Based on the user’s login, we can always assume the owner and manager as we've only served simple type organisations, so far in private beta.")
 
@@ -29,9 +27,9 @@ Now we're opening the doors to organisations with parent and child relationships
 
 We had intended to do this with three different versions of an "organisation details" page:
 
-1. When we only need to ask about ownership, A radio list of organisations.
-2. When we only need to ask about management, A radio list of organisations.
-3. When we need to know both, two dropdowns on the same page.
+1. When we only need to ask about ownership, use a radio list of organisations.
+2. When we only need to ask about management, use a radio list of organisations.
+3. When we need to know both, use two dropdowns on the same page.
 
 ![A screenshot from the service](which-org-owns.png "We proposed using radios to ask “Which organisation owns this property?”") 
 
