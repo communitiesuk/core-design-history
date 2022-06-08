@@ -4,7 +4,7 @@ date: 2022-06-07
 author: Jon Roobottom
 description: Allowing for complex organisation relationships
 ---
-So far, in this private beta phase, we've moved two organisations over to our new service. They're "simple" organisations in that they own housing stock and don't subcontract the management of that stock to anyone else.
+So far, in this private beta phase, we've moved two organisations over to our new service. These organisations own housing their housing stock and don't sub-contract the management of that stock to anyone else.
 
 However, most providers who own stock will often engage other organisations to manage stock on their behalf. We've been calling these organisations "managers" or "owner/managers", and the relations between them and the stock owners "parent" and "child"[^1]. 
 
@@ -21,7 +21,7 @@ To enable more organisations to submit logs, we need to change the service.
 ![A diagram showing the complex relationships between different organisations in CORE](organisational-relationships.png "The complex relationships between organisations A, B, C, D, and E")
 
 ## Asking users about who owns and manages the property
-The two organisations using our service in private beta own and manage their stock. We, therefore, don't have to ask them about this in the "set up your lettings log" section of the service. We can *infer* the owner and manager as it's always the organisation that the user is attached to.
+Because the two organisations using our service in private beta own and manage their housing stock we don't need to ask them about this in the "set up your lettings log" section of the service. We can *infer* the owner and manager as it's always the organisation that the user is attached to.
 
 ![A four step process showing how we infer the owner and manager based on the user’s login](infer-flow.jpg "Based on the user’s login, we can always assume the owner and manager as we've only served simple type organisations, so far in private beta.")
 
@@ -41,7 +41,7 @@ We had intended to do this with three different versions of an "organisation det
 
 The current thinking is that we need to ask about ownership *and* management. We should do this as separate questions. This better fits the GDS guideline of one thing per page, but it also simplifies the logic and reduces the risk of bugs.
 
-![A process flow showing the logic of showing the questions “Which organisation owns this property?” and “Which organisation manages this property?”](setup-own-manage.jpg "The proposed logic of how we route users through or around the questions “Which organisation owns this property?” and “Which organisation manages this property?” in set up your lettings log.")
+[![A process flow showing the logic of showing the questions “Which organisation owns this property?” and “Which organisation manages this property?”](setup-own-manage.jpg "The proposed logic of how we route users through or around the questions “Which organisation owns this property?” and “Which organisation manages this property?” in set up your lettings log.")](setup-own-manage.jpg)
 
 ## What's next
 We plan to:
