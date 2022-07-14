@@ -19,7 +19,7 @@ Splitting a log into thematically related sections makes it easier for different
 
 Our original design for the task list included a final declaration section as a way of providing a conclusive end to the log submission journey.
 
-![](/2021-08-19-task-list-new.png)
+![](/alpha-plus-ur-round-three/task-list.png)
 
 We briefly looked at using this final declaration step to ask data inputters to confirm that the tenant or buyer had seen the privacy notice, but [that question was moved so that it would appear earlier in the user journey](https://core-design-history.netlify.app/privacy-notice/).
 
