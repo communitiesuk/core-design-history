@@ -11,7 +11,7 @@ The mascot for CORE is a hermit crab named Shelly.
 {{ appGallery({
   items: [{
     text: "Alpha",
-    caption: "Shelly’s home is that of the Department for Levelling Up, Housing & Communities, dark blue. December 2021"
+    caption: "Shelly’s home is the same colour as that of the Department for Levelling Up, Housing & Communities, dark blue. December 2021"
   }, {
     text: "Private beta",
     caption: "Shelly’s home now wears the branding of our first data provider (Believe Housing) and is seen drinking a Margarita, the team’s celebratory drink of choice. July 2022"
