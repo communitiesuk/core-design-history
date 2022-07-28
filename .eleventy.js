@@ -20,6 +20,9 @@ module.exports = function (eleventyConfig) {
           href: '/glossary',
           text: 'Glossary'
         }, {
+          href: '/mission-patches',
+          text: 'Mission patches'
+        }, {
           href: '/sitemap',
           text: 'Sitemap'
         }]
